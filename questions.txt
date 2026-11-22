@@ -1,0 +1,70 @@
+Week 2. Python programming fundamentals
+100 points
+Instructions
+Write a short breakdown before you code. Each function returns a value. Tests can be plain asserts this week. Due: Sunday evening.
+
+Week 2. Python programming fundamentals
+
+Assignment
+
+Two problems on each main topic.
+
+Variables, types, and input
+
+1. Ask for a birth year and print the age this year. Run it for 3 years the mentor picks.
+
+Pass: the ages are correct, and you can say why input() must be turned into a number.
+
+2. Store price and quantity for 3 shop items and print the total. Every name describes the value (price_rice, not a).
+
+Pass: the total matches a hand calculation.
+
+Arithmetic and money
+
+3. A bill of 5 items gets 10% off, then 17% sales tax, rounded to whole rupees. Also compute tax-then-discount for the same bill.
+
+Pass: both totals match the mentor's 3 bills, and you can say why the order changes the result.
+
+4. print(0.1 + 0.2) shows a long float. Build the same bill in paisa (integers) so the receipt never shows that error.
+
+Pass: 3 bills match to the rupee, and the float line is explained in one sentence.
+
+Conditions
+
+5. Grade a mark: A from 80, B from 65, C from 50, F below 50. Test 49, 50, 64, 65, 79, and 80.
+
+Pass: all 6 boundaries are correct.
+
+6. Electricity bill: first 100 units at Rs 10, next 100 at Rs 15, the rest at Rs 25. Test 0, 100, 101, 200, and 350 units.
+
+Pass: all 5 amounts match a hand total.
+
+Loops and lists
+
+7. Find the highest mark without max(). Include an all-negative list and a one-item list.
+
+Pass: both cases are correct, and an empty list returns a clear message.
+
+8. A month of deposits and withdrawals. Print the running balance and the first day it goes negative. Include a history that never goes negative.
+
+Pass: the day number is correct, and the never-negative case says so instead of crashing.
+
+Functions
+
+9. grade(mark) returns the letter. It does not print. It uses the same bands as problem 5.
+
+Pass: the 6 boundary calls match problem 5, and the function's return value is what the test checks.
+
+10. Split the bill into subtotal, discount, tax, and total. Each function is tested on its own.
+
+Pass: each function passes alone, and total matches problem 3.
+
+Errors and input validation
+
+11. A program averages a list and crashes on an empty list with ZeroDivisionError. Handle it with a clear result. Do not hide the error in a bare except.
+
+Pass: the empty list prints a message, and a normal list still returns the average.
+
+12. A small CLI asks for a quantity. abc and -3 are rejected and the prompt repeats. A positive integer is accepted.
+
+Pass: both bad inputs never crash, and 4 is accepted.
