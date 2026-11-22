@@ -11,10 +11,10 @@ quantity_rice = 10 # KG
 price_sugar = 150 # per KG
 quantity_sugar = 15 # KG
 
-price_oil = 600 # per KG
+price_oil = 600 # per KG    
 quantity_oil = 20 # KG
 
 Total = (price_rice*quantity_rice) + (price_sugar*quantity_sugar) + (price_oil*quantity_oil)
 
-print(Total)
+print(f"Total Price of all items: {Total}")
 

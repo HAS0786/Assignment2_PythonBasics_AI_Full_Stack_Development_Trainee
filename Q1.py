@@ -3,13 +3,13 @@
 # Breakdown
 # Take the Input Birth Year 
 # Then calculate the Age
-# 
+
 current_year = 2026
 def calculateAge(year):
     # Calculation:
     if year<1899:
         return "Invalid Birth-Year"
-    if year>2026:
+    elif year>2026:
        return "Birth-Year not be in Negative"
     elif year==2026:
         return "Your are few months old"
